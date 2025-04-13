@@ -15,6 +15,7 @@
 		5ED350B72DAC5DD000EDA5F2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED350B62DAC5DC900EDA5F2 /* Profile.swift */; };
 		5ED350B92DAC5E0400EDA5F2 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED350B82DAC5E0100EDA5F2 /* ProfileManager.swift */; };
 		5ED350BB2DAC5E3500EDA5F2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED350BA2DAC5E3100EDA5F2 /* ProfileViewController.swift */; };
+		5EE1CB062DAC625500A655A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CB052DAC624F00A655A4 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5ED350B62DAC5DC900EDA5F2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		5ED350B82DAC5E0100EDA5F2 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
 		5ED350BA2DAC5E3100EDA5F2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5EE1CB052DAC624F00A655A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		5ED350AA2DAC5BC000EDA5F2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5EE1CB052DAC624F00A655A4 /* HomeViewController.swift */,
 				5ED350BA2DAC5E3100EDA5F2 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
@@ -199,6 +202,7 @@
 				5ED350B92DAC5E0400EDA5F2 /* ProfileManager.swift in Sources */,
 				5ED350B72DAC5DD000EDA5F2 /* Profile.swift in Sources */,
 				5ED350A32DAC5B8B00EDA5F2 /* AppDelegate.swift in Sources */,
+				5EE1CB062DAC625500A655A4 /* HomeViewController.swift in Sources */,
 				5ED350A42DAC5B8B00EDA5F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

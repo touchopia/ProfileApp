@@ -17,10 +17,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Setup the window
         let window = UIWindow(windowScene: windowScene)
         
-        let viewController = ProfileViewController()
-        viewController.view.backgroundColor = .white
-        let navigationController = UINavigationController(rootViewController: viewController)
-        window.rootViewController = navigationController
+        // Tab Bar Controller as the root
+        let tabBarController = UITabBarController()
+                
+        let homeViewController = HomeViewController()
+        
+        homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
+        
+        let profileViewController = ProfileViewController()
+        
+        profileViewController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 1)
+
+        
+        // Add view controllers to tab bar
+        tabBarController.viewControllers = [homeViewController, profileViewController]
+
+        // Setup the window
+        
+        window.rootViewController = tabBarController
         window.makeKeyAndVisible()
         
         self.window = window
