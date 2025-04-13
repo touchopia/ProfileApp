@@ -20,6 +20,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Tab Bar Controller as the root
         let tabBarController = UITabBarController()
                 
+        
+        // Create view controllers
+        
         let homeViewController = HomeViewController()
         
         homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
@@ -28,7 +31,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         profileViewController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 1)
 
-        
         // Add view controllers to tab bar
         tabBarController.viewControllers = [homeViewController, profileViewController]
 
